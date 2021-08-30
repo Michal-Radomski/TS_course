@@ -1,9 +1,9 @@
 "use strict";
 {
     var logical = true;
-    var age = 3;
+    var age_1 = 3;
     var name_1 = "Pawel";
-    if (typeof age === "number") {
+    if (typeof age_1 === "number") {
         console.log("Age jest liczba");
     }
     var something = void 0;

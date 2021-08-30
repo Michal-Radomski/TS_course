@@ -1,6 +1,6 @@
 "use strict";
 {
-    var age = void 0;
+    var age_1;
     var someVar = void 0;
     var dice = void 0;
     dice = 5;

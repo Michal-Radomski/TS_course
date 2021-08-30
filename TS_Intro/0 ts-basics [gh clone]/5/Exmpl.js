@@ -1,6 +1,6 @@
 "use strict";
 {
-    var age = { value: 5 };
+    var age_1 = { value: 5 };
     var pawel_1 = { value: "pawel" };
     function wrap(x) {
         return {
