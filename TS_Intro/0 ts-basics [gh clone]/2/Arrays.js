@@ -1,8 +1,8 @@
 "use strict";
 {
-    let arr = [];
+    var arr = [];
     arr.push(34);
-    const touple = ["Pawel", 32];
+    var touple = ["Pawel", 32];
     touple.push("as");
     touple.push("323");
 }

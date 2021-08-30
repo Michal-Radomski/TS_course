@@ -1,12 +1,12 @@
 "use strict";
 {
-    let logical = true;
-    let age = 3;
-    let name = "Pawel";
+    var logical = true;
+    var age = 3;
+    var name_1 = "Pawel";
     if (typeof age === "number") {
         console.log("Age jest liczba");
     }
-    let something;
+    var something = void 0;
     if (typeof something === "string") {
         something.length;
     }

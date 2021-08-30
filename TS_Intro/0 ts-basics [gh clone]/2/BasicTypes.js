@@ -1,17 +1,16 @@
 "use strict";
 {
     // Typ logiczny
-    let male = true;
-    let female = false;
+    var male = true;
+    var female = false;
     // Typ liczbowy
-    let age = 33;
-    let weight = 85.5;
-    let imaginarySalary = 1002312312;
+    var age = 33;
+    var weight = 85.5;
+    var imaginarySalary = 1002312312;
     // Typ tekstowy
-    let firstName = "Pawel";
-    let lastName = 'Cwik';
-    let someText = ` to jest tekst
-    wielolinijkowy, moje imie to ${firstName} ${lastName}`;
-    let x = "Pawel";
-    let y = 23;
+    var firstName = "Pawel";
+    var lastName = 'Cwik';
+    var someText = " to jest tekst\n    wielolinijkowy, moje imie to " + firstName + " " + lastName;
+    var x = "Pawel";
+    var y = 23;
 }

@@ -1,21 +1,21 @@
 "use strict";
 {
-    let pawel = {
+    var pawel_1 = {
         name: "Pawel",
         age: 32
     };
-    pawel = {
+    pawel_1 = {
         name: "Pawel",
         age: 32,
         email: "pawel@kurstypescripta.pl"
     };
-    let kinga = {
+    var kinga = {
         name: "Kinga",
         age: 35
     };
-    const sendEmail = (people) => {
-        people.filter(person => person.email).forEach(person => {
-            console.log(`Sending email to ${person.email}...`);
+    var sendEmail = function (people) {
+        people.filter(function (person) { return person.email; }).forEach(function (person) {
+            console.log("Sending email to " + person.email + "...");
         });
         return people;
     };

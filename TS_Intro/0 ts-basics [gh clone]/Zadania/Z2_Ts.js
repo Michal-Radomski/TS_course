@@ -8,8 +8,8 @@ function prefixer(word) {
         return word;
     }
     else {
-        return `ts${word}`;
+        return "ts" + word;
     }
 }
-console.log(`${prefixer("ts jest super")}`);
-console.log(`${prefixer("kaczka")}`);
+console.log("" + prefixer("ts jest super"));
+console.log("" + prefixer("kaczka"));

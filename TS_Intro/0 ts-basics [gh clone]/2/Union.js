@@ -1,10 +1,10 @@
 "use strict";
 {
-    let ux;
+    var ux = void 0;
     ux = 5;
     ux = "x";
-    let uz;
-    const f = (x) => {
+    var uz = void 0;
+    var f = function (x) {
         return "";
     };
 }

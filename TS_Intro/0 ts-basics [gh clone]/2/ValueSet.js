@@ -1,17 +1,17 @@
 "use strict";
 {
-    let age;
-    let someVar;
-    let dice;
+    var age = void 0;
+    var someVar = void 0;
+    var dice = void 0;
     dice = 5;
-    let mismasz;
-    const youWillNotBeAbleToChangeMe = "dom";
-    let flagIsSet = true;
-    let anotherFlag = false;
+    var mismasz = void 0;
+    var youWillNotBeAbleToChangeMe = "dom";
+    var flagIsSet = true;
+    var anotherFlag = false;
     flagIsSet = anotherFlag;
     anotherFlag = flagIsSet;
-    let name = "Pawel";
-    let text;
-    text = name;
+    var name_1 = "Pawel";
+    var text = void 0;
+    text = name_1;
     // name = text;
 }

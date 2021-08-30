@@ -1,21 +1,25 @@
 "use strict";
-class Email {
-    constructor(name, domain) {
-        this.toString = () => {
-            return `${this.name}@${this.domain}`;
+var Email = /** @class */ (function () {
+    function Email(name, domain) {
+        var _this = this;
+        this.toString = function () {
+            return _this.name + "@" + _this.domain;
         };
         this.name = name;
         this.domain = domain;
     }
-}
-class Person {
-    constructor(name, email) {
-        this.toString = () => {
-            return `${this.firstName} ${this.email.toString()}`;
+    return Email;
+}());
+var Person = /** @class */ (function () {
+    function Person(name, email) {
+        var _this = this;
+        this.toString = function () {
+            return _this.firstName + " " + _this.email.toString();
         };
         this.firstName = name;
         this.email = email;
     }
-}
-const pawel = new Person("Pawel", new Email("pawel", "kurstypescripta.pl"));
+    return Person;
+}());
+var pawel = new Person("Pawel", new Email("pawel", "kurstypescripta.pl"));
 console.log(pawel.toString());

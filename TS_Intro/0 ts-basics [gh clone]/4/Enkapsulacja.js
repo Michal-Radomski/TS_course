@@ -1,39 +1,43 @@
 "use strict";
 {
-    class Email {
-        constructor(name, domain) {
-            this.toString = () => {
-                return `${this.name}@${this.domain}`;
+    var Email_1 = /** @class */ (function () {
+        function Email(name, domain) {
+            var _this = this;
+            this.toString = function () {
+                return _this.name + "@" + _this.domain;
             };
             this.name = name;
             this.domain = domain;
         }
-    }
-    class Person {
-        constructor(name, email) {
-            this.toString = () => {
-                return `${this.firstName} ${this.email.toString()}`;
+        return Email;
+    }());
+    var Person_1 = /** @class */ (function () {
+        function Person(name, email) {
+            var _this = this;
+            this.toString = function () {
+                return _this.firstName + " " + _this.email.toString();
             };
             this.firstName = name;
             this.email = email;
             this.preferences = [];
         }
-        setEmail(email) {
+        Person.prototype.setEmail = function (email) {
             this.email = email;
-        }
-        getEmail() {
-            console.log(`Email filed was read`);
+        };
+        Person.prototype.getEmail = function () {
+            console.log("Email filed was read");
             return this.email;
-        }
-        getPreferences() {
+        };
+        Person.prototype.getPreferences = function () {
             return Object.assign([], this.preferences);
-        }
-        addPreference(pref) {
+        };
+        Person.prototype.addPreference = function (pref) {
             this.preferences.push(pref);
             return this.preferences;
-        }
-    }
-    const email = new Email("pawel", "kurstypescripta.pl");
-    const pawel = new Person("Pawel", email);
-    console.log(pawel.getEmail());
+        };
+        return Person;
+    }());
+    var email = new Email_1("pawel", "kurstypescripta.pl");
+    var pawel_1 = new Person_1("Pawel", email);
+    console.log(pawel_1.getEmail());
 }

@@ -1,7 +1,7 @@
 "use strict";
 {
-    let dice = 5;
-    let someArray = [];
-    let dice2 = 3;
-    let dice3 = 8;
+    var dice = 5;
+    var someArray = [];
+    var dice2 = 3;
+    var dice3 = 8;
 }

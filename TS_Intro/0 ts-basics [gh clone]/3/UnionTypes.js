@@ -1,13 +1,13 @@
 "use strict";
 {
-    const dice = 4;
-    let union = {
+    var dice = 4;
+    var union = {
         name: "Pawel",
         age: 32,
         // email: "cat@cat.com",
         breed: "cat"
     };
-    let join = {
+    var join = {
         name: "a",
         age: 3,
         email: "cat@cat.com",
